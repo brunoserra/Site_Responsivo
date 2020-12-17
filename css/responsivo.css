@@ -1,7 +1,17 @@
-body {
-    font-family: 'Acme', sans-serif;
-    font-family: 'Archivo', sans-serif;
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Indie Flower', cursive;
-    font-family: 'Langar', cursive;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        outline: none;
+        font-size: 100%;
+        border: none;
+        font-weight: 300;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Acme', sans-serif;
+        font-family: 'Archivo', sans-serif;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Indie Flower', cursive;
+        font-family: 'Langar', cursive;
+    }
