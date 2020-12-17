@@ -15,3 +15,34 @@
         font-family: 'Indie Flower', cursive;
         font-family: 'Langar', cursive;
     }
+    
+    body {
+        background-color: rgba(148, 145, 145, 0.911);
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    img {
+        max-width: 100%;
+    }
+    /*Cabeçalho*/
+    
+    .cabecalho {
+        width: 100%;
+        float: left;
+        padding: 3% 4%;
+    }
+    
+    .logo {
+        width: 56px;
+        height: 56px;
+        float: left;
+        background-image: url(../imagens/logo-mobile.png) center center/56px no-repeat;
+        font-size: 0;
+    }
