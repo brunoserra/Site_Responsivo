@@ -60,7 +60,7 @@
     /*Menu*/
     
     .menu {
-        width: 100%;
+        display: none;
         height: 100%;
         position: fixed;
         background-color: rgba(0, 0, 0, 0. 9);
@@ -88,10 +88,10 @@
     
     .menu li a {
         font-size: 2em;
-        color: darkorange;
+        color: rgba(185, 95, 11, 0.808);
         padding: 1.5% 3%;
     }
     
     .menu li a:hover {
-        border: 1px solid;
+        border: 1px solid rgba(238, 223, 8, 0.876);
     }
