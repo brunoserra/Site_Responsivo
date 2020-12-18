@@ -69,11 +69,10 @@
     }
     
     .btn-close {
-        font-size: 3em;
-        color: #fff;
+        font-size: 1.5em;
         float: right;
+        color: #fff;
         cursor: pointer;
-        margin-right: 5%;
     }
     
     .menu ul {
