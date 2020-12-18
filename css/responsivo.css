@@ -149,3 +149,34 @@
         background-color: darkmagenta;
         color: bisque;
     }
+    /*serviçoes*/
+    
+    .servicos {
+        width: 100%;
+        float: left;
+        padding: 3% 4%;
+    }
+    
+    .servico {
+        width: 100%;
+        background-color: dodgerblue;
+        text-align: left;
+        border-radius: 10px;
+        margin-bottom: 3%;
+    }
+    
+    .servicos img {
+        border-radius: 10px 10px 0 0;
+    }
+    
+    .inner {
+        padding: 8%;
+    }
+    
+    .inner a {
+        font-size: 1.5em;
+        color: rgb(22, 20, 20);
+        font-weight: 700;
+    }
+    
+    .inner h3 {}
