@@ -34,13 +34,21 @@
                     <li><a href="#">Cabelo</a></li>
                 </ul>
             </nav>
-
         </header>
-        <script src='//code.jquery.com/jquery-1.12.0.min.js'></script>
+        <div>
 
+        </div>
+
+
+
+        <script src='http://code.jquery.com/jquery-1.12.0.min.js'></script>
         <script>
-            $(".btn-menu").click(function() {});
-            $(".menu").show();
+            $(".btn-menu").click(function() {
+                $(".menu").show()
+            });
+            $(".btn-close").click(function() {
+                $(".menu").hide()
+            });
         </script>
 
 
