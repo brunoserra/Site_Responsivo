@@ -179,4 +179,12 @@
         font-weight: 700;
     }
     
-    .inner h3 {}
+    .inner h3 {
+        font-size: 1.2em;
+        margin-top: 2%;
+    }
+    
+    .inner p {
+        margin-top: 6%;
+        line-height: 1.5em;
+    }
