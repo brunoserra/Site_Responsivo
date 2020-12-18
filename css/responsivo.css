@@ -109,13 +109,44 @@
         width: 100%;
     }
     
-    .banner h2 {
+    .title h2 {
         font-size: 2.5em;
         color: cornflowerblue;
         font-weight: 700;
     }
     
-    .banner h3 {
+    .title h3 {
         font-size: 1.5em;
         color: cornflowerblue;
+    }
+    
+    .buttons i {
+        float: right;
+    }
+    
+    .buttons {
+        width: 100%;
+        margin-top: 2%;
+    }
+    
+    .btn-cadastrar {
+        width: 100%;
+        font-size: 1.5em;
+        text-align: left;
+        cursor: pointer;
+        padding: 5%;
+        border-radius: 10px;
+        background-color: darkmagenta;
+        color: bisque;
+    }
+    
+    .btn-sobre {
+        width: 100%;
+        font-size: 1.5em;
+        text-align: left;
+        cursor: pointer;
+        padding: 5%;
+        border-radius: 10px;
+        background-color: darkmagenta;
+        color: bisque;
     }
