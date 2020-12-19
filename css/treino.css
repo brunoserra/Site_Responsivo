@@ -1,0 +1,22 @@
+/*texto estilizando*/
+
+p {
+    color: darkmagenta;
+    text-decoration: underline;
+    text-transform: lowercase;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: overline;
+}
+
+h2 {
+    text-align: right;
+    text-decoration: line-through;
+}
+
+h3 {
+    text-align: left;
+    text-decoration: solid;
+}
