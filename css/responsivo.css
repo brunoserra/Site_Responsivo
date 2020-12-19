@@ -302,28 +302,34 @@ img {
 
 /*Small devices- tablet*/
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1024px) {
     .btn-menu {
         display: none;
     }
     .btn-close {
         display: none;
     }
-    .men {
+    .menu {
         width: 100%;
         height: 56px;
         line-height: 56px;
         float: right;
         background-color: aquamarine;
-        display: block;
+        display: block !important;
         position: static;
     }
     .menu li {
         padding: 0;
-        float: left;
+        float: right;
     }
     .menu li a {
         color: coral;
+        font-size: 1em;
+        padding: 15px;
+    }
+    .menu li a:hover {
+        border: none;
+        color: floralwhite;
     }
 }
 
