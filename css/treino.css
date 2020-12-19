@@ -3,7 +3,7 @@
 p {
     color: darkmagenta;
     text-decoration: underline;
-    text-transform: lowercase;
+    text-transform: capitalize;
 }
 
 h1 {
