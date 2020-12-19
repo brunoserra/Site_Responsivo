@@ -1,268 +1,331 @@
-                * {
-                    margin: 0;
-                    padding: 0;
-                    outline: none;
-                    font-size: 100%;
-                    border: none;
-                    font-weight: 300;
-                    box-sizing: border-box;
-                }
-                
-                body {
-                    font-family: 'Acme', sans-serif;
-                    font-family: 'Archivo', sans-serif;
-                    font-family: 'Dancing Script', cursive;
-                    font-family: 'Indie Flower', cursive;
-                    font-family: 'Langar', cursive;
-                }
-                
-                body {
-                    background-color: rgba(148, 145, 145, 0.911);
-                }
-                
-                a {
-                    text-decoration: none;
-                }
-                
-                ul {
-                    list-style: none;
-                }
-                
-                img {
-                    max-width: 100%;
-                }
-                /*Cabeçalho*/
-                
-                .cabecalho {
-                    width: 100%;
-                    float: left;
-                    padding: 3% 4%;
-                }
-                
-                .logo {
-                    width: 56px;
-                    height: 56px;
-                    float: left;
-                    background: url(../imagens/logo-mobile.png) center center/56px no-repeat;
-                    font-size: 0;
-                }
-                
-                .btn-menu {
-                    width: 56px;
-                    height: 56px;
-                    float: right;
-                    text-align: center;
-                    color: brown;
-                    border-radius: 56px;
-                    cursor: pointer;
-                    background: linear-gradient(to right, rgba(95, 95, 230, 0.897), rgb(219, 75, 99));
-                }
-                /*Menu*/
-                
-                .menu {
-                    display: none;
-                    height: 100%;
-                    position: fixed;
-                    background-color: rgba(0, 0, 0, 0. 9);
-                    top: 0;
-                    left: 0;
-                }
-                
-                .btn-close {
-                    font-size: 1.5em;
-                    float: right;
-                    color: #fff;
-                    cursor: pointer;
-                }
-                
-                .menu ul {
-                    width: 100%;
-                    float: left;
-                    text-align: center;
-                }
-                
-                .menu li {
-                    padding: 1.5%;
-                }
-                
-                .menu li a {
-                    font-size: 2em;
-                    color: rgba(185, 95, 11, 0.808);
-                    padding: 1.5% 3%;
-                }
-                
-                .menu li a:hover {
-                    border: 1px solid rgba(238, 223, 8, 0.876);
-                }
-                /*Banner*/
-                
-                .banner {
-                    width: 100%;
-                    float: left;
-                    text-align: center;
-                    padding: 3% 4%;
-                    background: url(../imagens/bg.jpg) no-repeat fixed;
-                }
-                
-                .title {
-                    width: 100%;
-                }
-                
-                .title h2 {
-                    font-size: 2.5em;
-                    color: cornflowerblue;
-                    font-weight: 700;
-                }
-                
-                .title h3 {
-                    font-size: 1.5em;
-                    color: cornflowerblue;
-                }
-                
-                .buttons i {
-                    float: right;
-                }
-                
-                .buttons {
-                    width: 100%;
-                    margin-top: 2%;
-                }
-                
-                .btn-cadastrar {
-                    width: 100%;
-                    font-size: 1.5em;
-                    text-align: left;
-                    cursor: pointer;
-                    padding: 5%;
-                    border-radius: 10px;
-                    background-color: darkmagenta;
-                    color: bisque;
-                }
-                
-                .btn-sobre {
-                    width: 100%;
-                    margin-top: 2%;
-                    text-align: left;
-                    cursor: pointer;
-                    padding: 5%;
-                    border-radius: 10px;
-                    background-color: darkmagenta;
-                    color: bisque;
-                }
-                /*serviçoes*/
-                
-                .servicos {
-                    width: 100%;
-                    float: left;
-                    padding: 3% 4%;
-                }
-                
-                .servico {
-                    width: 100%;
-                    background-color: dodgerblue;
-                    text-align: left;
-                    border-radius: 10px;
-                    margin-bottom: 3%;
-                }
-                
-                .servicos img {
-                    border-radius: 10px 10px 0 0;
-                }
-                
-                .inner {
-                    padding: 8%;
-                }
-                
-                .inner a {
-                    font-size: 1.5em;
-                    color: rgb(22, 20, 20);
-                    font-weight: 700;
-                }
-                
-                .inner h3 {
-                    font-size: 1.2em;
-                    margin-top: 2%;
-                }
-                
-                .inner p {
-                    margin-top: 6%;
-                    line-height: 1.5em;
-                }
-                /*Newletter*/
-                
-                .newsletter {
-                    width: 100%;
-                    float: left;
-                    text-align: center;
-                    padding: 3% 4%;
-                    background-color: rgb(22, 20, 20);
-                }
-                
-                .newsletter h3 {
-                    font-size: 1.5em;
-                    font-weight: 700;
-                    color: blanchedalmond;
-                }
-                
-                .newsletter h2 {
-                    color: blanchedalmond
-                }
-                
-                .newsletter form {
-                    margin-top: 2%;
-                }
-                
-                .newsletter input {
-                    width: 100%;
-                    color: rgb(156, 156, 101);
-                    border: 1px solid rgb(241, 241, 15);
-                    padding: 5%;
-                    border-radius: 5px;
-                }
-                
-                .newsletter button {
-                    width: 100%;
-                    background-color: coral;
-                    color: cornsilk;
-                    border-radius: 5px;
-                    padding: 5%;
-                    margin-top: 2%;
-                }
-                /*Rodade*/
-                
-                .rodape {
-                    width: 100%;
-                    float: left;
-                    padding: 3% 4%;
-                    text-align: center;
-                    background: linear-gradient(to right, rgba(95, 95, 230, 0.897), rgb(219, 75, 99));
-                }
-                
-                .social-icons a {
-                    font-size: 1.5em;
-                    color: rgba(255, 255, 255, 0.7);
-                    margin-right: 3%;
-                }
-                
-                .social-icons a:last-child {
-                    margin-right: 0;
-                }
-                
-                .social-icons a:hover {
-                    color: aqua;
-                }
-                
-                .copyright {
-                    margin-top: 2%;
-                    color: rgba(255, 255, 255, 0.7);
-                }
-                /*Midias Types serve para adequar monitos ou impressão*/
-                /*Mobile Fisrte*/
-                /*Small devices- Smartphone*/
-                
-                @media screen and (min-width:780px) {
-                    .logo {
-                        width: 214px;
-                        background: url(../imagens/logo.png) center center/214px no-repeat;
-                    }
-                }
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-size: 100%;
+    border: none;
+    font-weight: 300;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Acme', sans-serif;
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Langar', cursive;
+}
+
+body {
+    background-color: rgba(148, 145, 145, 0.911);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/*Cabeçalho*/
+
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.logo {
+    width: 56px;
+    height: 56px;
+    float: left;
+    background: url(../imagens/logo-mobile.png) center center/56px no-repeat;
+    font-size: 0;
+}
+
+.btn-menu {
+    width: 56px;
+    height: 56px;
+    float: right;
+    text-align: center;
+    color: brown;
+    border-radius: 56px;
+    cursor: pointer;
+    background: linear-gradient(to right, rgba(95, 95, 230, 0.897), rgb(219, 75, 99));
+}
+
+
+/*Menu*/
+
+.menu {
+    display: none;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0. 9);
+    top: 0;
+    left: 0;
+}
+
+.btn-close {
+    font-size: 1.5em;
+    float: right;
+    color: #fff;
+    cursor: pointer;
+}
+
+.menu ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu li {
+    padding: 1.5%;
+}
+
+.menu li a {
+    font-size: 2em;
+    color: rgba(185, 95, 11, 0.808);
+    padding: 1.5% 3%;
+}
+
+.menu li a:hover {
+    border: 1px solid rgba(238, 223, 8, 0.876);
+}
+
+
+/*Banner*/
+
+.banner {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 4%;
+    background: url(../imagens/bg.jpg) no-repeat fixed;
+}
+
+.title {
+    width: 100%;
+}
+
+.title h2 {
+    font-size: 2.5em;
+    color: cornflowerblue;
+    font-weight: 700;
+}
+
+.title h3 {
+    font-size: 1.5em;
+    color: cornflowerblue;
+}
+
+.buttons i {
+    float: right;
+}
+
+.buttons {
+    width: 100%;
+    margin-top: 2%;
+}
+
+.btn-cadastrar {
+    width: 100%;
+    font-size: 1.5em;
+    text-align: left;
+    cursor: pointer;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: darkmagenta;
+    color: bisque;
+}
+
+.btn-sobre {
+    width: 100%;
+    margin-top: 2%;
+    text-align: left;
+    cursor: pointer;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: darkmagenta;
+    color: bisque;
+}
+
+
+/*serviçoes*/
+
+.servicos {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+}
+
+.servico {
+    width: 100%;
+    background-color: dodgerblue;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+
+.servicos img {
+    border-radius: 10px 10px 0 0;
+}
+
+.inner {
+    padding: 8%;
+}
+
+.inner a {
+    font-size: 1.5em;
+    color: rgb(22, 20, 20);
+    font-weight: 700;
+}
+
+.inner h3 {
+    font-size: 1.2em;
+    margin-top: 2%;
+}
+
+.inner p {
+    margin-top: 6%;
+    line-height: 1.5em;
+}
+
+
+/*Newletter*/
+
+.newsletter {
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 4%;
+    background-color: rgb(22, 20, 20);
+}
+
+.newsletter h3 {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: blanchedalmond;
+}
+
+.newsletter h2 {
+    color: blanchedalmond
+}
+
+.newsletter form {
+    margin-top: 2%;
+}
+
+.newsletter input {
+    width: 100%;
+    color: rgb(156, 156, 101);
+    border: 1px solid rgb(241, 241, 15);
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    width: 100%;
+    background-color: coral;
+    color: cornsilk;
+    border-radius: 5px;
+    padding: 5%;
+    margin-top: 2%;
+}
+
+
+/*Rodade*/
+
+.rodape {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+    background: linear-gradient(to right, rgba(95, 95, 230, 0.897), rgb(219, 75, 99));
+}
+
+.social-icons a {
+    font-size: 1.5em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-right: 3%;
+}
+
+.social-icons a:last-child {
+    margin-right: 0;
+}
+
+.social-icons a:hover {
+    color: aqua;
+}
+
+.copyright {
+    margin-top: 2%;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+/*Midias Types serve para adequar monitos ou impressão*/
+
+
+/*Mobile Fisrte*/
+
+
+/*Small devices- Smartphone*/
+
+@media screen and (min-width:480px) {
+    .logo {
+        width: 214px;
+        background: url(../imagens/logo.png) center center/214px no-repeat;
+    }
+}
+
+
+/*Small devices- tablet*/
+
+@media screen and (min-width:768px) {
+    .servico {
+        width: 100%;
+        float: left;
+        margin-right: 2%;
+    }
+    .servico:nth-child(2) {
+        margin-right: 0%;
+    }
+}
+
+
+/*Small devices- tablet*/
+
+@media screen and (min-width:768px) {
+    .btn-menu {
+        display: none;
+    }
+    .btn-close {
+        display: none;
+    }
+    .men {
+        width: 100%;
+        height: 56px;
+        line-height: 56px;
+        float: right;
+        background-color: aquamarine;
+        display: block;
+        position: static;
+    }
+    .menu li {
+        padding: 0;
+        float: left;
+    }
+    .menu li a {
+        color: coral;
+    }
+}
+
+
+}
