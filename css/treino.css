@@ -4,6 +4,13 @@ p {
     color: darkmagenta;
     text-decoration: underline;
     text-transform: capitalize;
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 30px;
+    direction: ltr;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    text-shadow: 1px 3px blue;
 }
 
 h1 {
