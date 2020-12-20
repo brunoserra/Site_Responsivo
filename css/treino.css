@@ -1,5 +1,22 @@
 /*texto estilizando*/
 
+
+/* seletor univer *{} serve todos os  itens da pagina*/
+
+
+/* outro seletor pode ser assim
+input [type='text']{}
+ou input[name='email']{}
+*/
+
+.banner {
+    background-color: darkred
+}
+
+.texto-principal {
+    color: gainsboro;
+}
+
 p {
     color: darkmagenta;
     text-decoration: underline;
