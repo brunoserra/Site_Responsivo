@@ -17,6 +17,10 @@ ou input[name='email']{}
     color: gainsboro;
 }
 
+.cabecalho {
+    background-color: goldenrod;
+}
+
 p {
     color: darkmagenta;
     text-decoration: underline;
@@ -44,3 +48,17 @@ h3 {
     text-align: left;
     text-decoration: solid;
 }
+
+
+/*dimensão
+largura width: 100% ou px;
+height algura
+definir max e min pra altur e larguta
+max-width min-width*/
+
+
+/*margin
+padding serve par aespaçamento interno
+padding-botton espaçemnto inferior
+sendito horario
+paddin:10 parte superito 10 direito base 10esquerdo10
