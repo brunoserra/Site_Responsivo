@@ -84,5 +84,6 @@ paddin:10 parte superito 10 direito base 10esquerdo10
     background-color: peru;
     width: 300px;
     height: 56px;
-    overflow: scroll;
+    overflow: auto;
+    opacity: 0.4;
 }
