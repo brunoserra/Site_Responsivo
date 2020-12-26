@@ -62,3 +62,10 @@ padding serve par aespaçamento interno
 padding-botton espaçemnto inferior
 sendito horario
 paddin:10 parte superito 10 direito base 10esquerdo10
+
+/*box shaddowbopx size*/
+
+#container {
+    max-width: 300px;
+    color: slateblue;
+}
