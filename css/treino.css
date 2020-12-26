@@ -9,6 +9,12 @@ input [type='text']{}
 ou input[name='email']{}
 */
 
+
+/*como usar fonte externa*/
+
+
+/*google fonts*/
+
 .banner {
     background-color: darkred
 }
@@ -32,6 +38,10 @@ p {
     letter-spacing: 2px;
     word-spacing: 6px;
     text-shadow: 1px 3px blue;
+}
+
+p {
+    font-family: 'Crimson Pro', serif;
 }
 
 h1 {
@@ -69,12 +79,24 @@ paddin:10 parte superito 10 direito base 10esquerdo10
     box-sizing: border-box;
 }
 
+* {
+    font-size: 100%;
+}
+
+
+/*font 1em = 16 tamnaho do navegador. se quiser saber em px tam em px/16*/
+
 #container {
     max-width: 300px;
     padding: 20px;
     background-color: lightpink;
     color: slateblue;
     box-shadow: 10px 10px 5px rgba(47, 200, 214, 0.774);
+    border-radius: 60px;
+    border: 5px solid darkred;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size: 1.30em;
 }
 
 
