@@ -41,10 +41,27 @@
          border-color: magenta;
          outline: 4px dotted rgb(83, 85, 226);
          transition: all 2s linear;
+         float: left;
      }
      
      #bordar:hover {
          width: 600px;
          height: 400px;
          background: linear-gradient(red, pink, blue, yellow);
+     }
+     /*clear fixed*/
+     
+     .container {
+         width: 100%;
+         background-color: black;
+     }
+     
+     .container::before,
+     .container::after {
+         content: '';
+         display: table;
+     }
+     
+     .container::after {
+         clear: both;
      }
