@@ -65,3 +65,11 @@
      .container::after {
          clear: both;
      }
+     
+     button {
+         width: 200px;
+         height: 80px;
+         background-color: crimson;
+         color: beige;
+         border: 6px dashed currentColor;
+     }
