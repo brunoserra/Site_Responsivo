@@ -73,3 +73,9 @@
          color: beige;
          border: 6px dashed currentColor;
      }
+     /*criarlink variavelurl*/
+     
+     .noticia:target {
+         background-color: dodgerblue;
+         padding: 10px
+     }
