@@ -83,5 +83,5 @@
      *{zerar proprieedade} filter*/
      
      img {
-         filter: invert(60%);
+         filter: saturate(600%);
      }
